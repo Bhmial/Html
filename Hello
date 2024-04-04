@@ -1,7 +1,26 @@
-echo "# Html" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Bhmial/Html.git
-git push -u origin main
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+   <h1>
+     login
+   </h1>
+  <p>
+    username
+  </p>
+  <input name=""value=""/>
+ <p>
+    password
+  </p>
+  <input name=""value=""
+  type="password"/>
+  <button>login</button>
+
+
